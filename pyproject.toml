@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "irtac"
+version = "0.1.0"
+description = ""
+authors = ["xentropy <claponsie@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "irtac" }]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymodbustcp = "^0.2.2"
+
+[tool.poetry.scripts]
+modbus = "irtac.modbus_server:run"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
