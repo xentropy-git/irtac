@@ -1,0 +1,12 @@
+import time
+from models.engine_state import EngineState
+
+fn main():
+    print("hello world")
+    var engine_state = EngineState()
+
+    while True:
+        engine_state.last_update = time.now()
+        engine_state.watchdog += 1
+        print ("Watchdog: ", engine_state.watchdog)
+        time.sleep(1.0)
