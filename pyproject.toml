@@ -10,6 +10,9 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.11"
 pymodbustcp = "^0.2.2"
+pymodbus = "^3.7.0"
+aiohttp = "^3.10.1"
+colorlog = "^6.8.2"
 
 [tool.poetry.scripts]
 modbus = "irtac.modbus_server:run"
