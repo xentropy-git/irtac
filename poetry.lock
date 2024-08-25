@@ -266,6 +266,17 @@ files = [
 ]
 
 [[package]]
+name = "labjack-ljm"
+version = "1.23.0"
+description = "LJM library Python wrapper for LabJack T4, T7 and T8."
+optional = false
+python-versions = "*"
+files = [
+    {file = "labjack-ljm-1.23.0.tar.gz", hash = "sha256:9d47838c59a74468b81de348689c6c534214bb93ee5a99b91c94b291cd4a49c0"},
+    {file = "labjack_ljm-1.23.0-py2.py3-none-any.whl", hash = "sha256:88bca9fb2cfa2d57e5d17f495d86d2d2e929f5129b8ca4331987fc50abfee210"},
+]
+
+[[package]]
 name = "multidict"
 version = "6.0.5"
 description = "multidict implementation"
@@ -500,4 +511,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "88a159e65d9d5312c676b498a397703b78b6c786d18fe1b25646ae9999f001a3"
+content-hash = "39b9934c90900c8f13dc1dfa021eab6799779a9b101e7deba09ee915cdc9ddd8"
